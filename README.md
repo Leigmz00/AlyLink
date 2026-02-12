@@ -65,9 +65,9 @@ n=document.getElementById("no"),
 b=document.getElementById("box");
 
 const msgs=[
-  "Baby, are you sure?",
-  "Really baby? 🥺",
-  "Come on baby",
+  "Baby, did you just pressed no?🤨",
+  "Again? 🥺",
+  "Why would you do that..☹️",
   "Don’t break my heart 💔",
   "Please baby",
   "Okay… yes? 🤍"
@@ -95,11 +95,9 @@ n.onclick=()=>{
 y.onclick=()=>{
   b.innerHTML=`
     <div style="font-size:4rem">💖✨</div>
-    <h1>Baby… thank you</h1>
+    <h1>YAAYY! I love you, Baby!</h1>
     <p style="color:#ff4d6d">
-      I choose you, baby.  
-      Today, tomorrow, and in all the little moments.
-      You make my heart feel home 🤍
+      I will always choose you, forever. You're forever my wife, my baby, my bia. 💗
     </p>`;
   for(let j=0;j<40;j++)setTimeout(heart,j*40)
 };
